@@ -109,6 +109,9 @@ border: none;</string>
      <height>31</height>
     </rect>
    </property>
+   <property name="cursor">
+    <cursorShape>PointingHandCursor</cursorShape>
+   </property>
    <property name="styleSheet">
     <string notr="true">background: none;
 border: none;</string>
