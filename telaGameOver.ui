@@ -10,26 +10,66 @@
     <height>497</height>
    </rect>
   </property>
+  <property name="maximumSize">
+   <size>
+    <width>550</width>
+    <height>500</height>
+   </size>
+  </property>
   <property name="windowTitle">
    <string>Form</string>
   </property>
-  <widget class="QLabel" name="GameOver">
+  <widget class="QLabel" name="label">
    <property name="geometry">
     <rect>
      <x>0</x>
-     <y>10</y>
-     <width>511</width>
-     <height>481</height>
+     <y>0</y>
+     <width>501</width>
+     <height>491</height>
     </rect>
    </property>
    <property name="text">
     <string/>
    </property>
    <property name="pixmap">
-    <pixmap>img/game-over.png</pixmap>
+    <pixmap>img/GameOver.png</pixmap>
    </property>
    <property name="scaledContents">
     <bool>true</bool>
+   </property>
+  </widget>
+  <widget class="QPushButton" name="btnExit">
+   <property name="geometry">
+    <rect>
+     <x>106</x>
+     <y>390</y>
+     <width>141</width>
+     <height>61</height>
+    </rect>
+   </property>
+   <property name="styleSheet">
+    <string notr="true">background-color: none;
+border: none;</string>
+   </property>
+   <property name="text">
+    <string/>
+   </property>
+  </widget>
+  <widget class="QPushButton" name="btnAgain">
+   <property name="geometry">
+    <rect>
+     <x>260</x>
+     <y>390</y>
+     <width>141</width>
+     <height>61</height>
+    </rect>
+   </property>
+   <property name="styleSheet">
+    <string notr="true">background-color: none;
+border: none;</string>
+   </property>
+   <property name="text">
+    <string/>
    </property>
   </widget>
  </widget>

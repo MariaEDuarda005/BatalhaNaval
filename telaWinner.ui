@@ -16,11 +16,17 @@
   <widget class="QLabel" name="Winner">
    <property name="geometry">
     <rect>
-     <x>10</x>
+     <x>0</x>
      <y>10</y>
-     <width>481</width>
+     <width>511</width>
      <height>481</height>
     </rect>
+   </property>
+   <property name="maximumSize">
+    <size>
+     <width>520</width>
+     <height>500</height>
+    </size>
    </property>
    <property name="text">
     <string/>
