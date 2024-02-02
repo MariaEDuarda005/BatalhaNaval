@@ -122,6 +122,7 @@ class telas:
             if senderCoordenada in self.barcos:
                 sender.setStyleSheet("background-image: url('img/bomba_estourou.png'); border: none")
                 self.barcos.remove(senderCoordenada)
+                sender.setEnabled(False)
                
                 if len(self.barcos) == 0:
                     self.tabuleiro.close()
@@ -136,6 +137,7 @@ class telas:
         else:
             self.tabuleiro.close()
             self.telaGameOver.show()
+            sender.setEnabled(False)
 
 if __name__ == '__main__':
     c = telas()
